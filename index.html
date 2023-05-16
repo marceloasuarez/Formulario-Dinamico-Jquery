@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Pagina dinamica</title>
+        <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js" ></script>
+    </head>
+    <body>
+        <header>
+            <h1>Adicionar Produtos Dinamicamente</h1>
+        </header>
+        <div id="container">
+            <form id="f" name="f">
+                <table id="tablaUsuarios" class="table table-bordered" >
+                    <tr>
+                        <th >Marca</th>
+                        <th >Quantidade </th>
+                        <th >Descricao</th>
+                        <th >Valor</th>
+                        <th >Deletar</th>
+                    </tr>
+                </table>
+                <div id="botones" class="centrar">
+                    <input type="submit" id="guardar" class="btn btn-success" value="Salvar Todos" />
+                    <input type="button" id="newp" class="btn btn-primary" value="Adicionar produto" />
+                </div>
+                <div id="result" class="centrar">
+                    Resultado
+                </div>
+
+            </form>
+        </div>
+        <footer>
+
+        </footer>
+    </body>
+</html>
